@@ -1,1 +1,9 @@
+How can you handle exceptions in Java?
 
+In Java, exceptions can be handled using the following mechanisms:
+
+try-catch: Use a try block to wrap the code that might throw an exception. If an exception occurs, the control is transferred to the appropriate catch block that matches the exception type.
+
+throws: When a method may throw a checked exception, declare it using the throws keyword in the method signature. The calling code must handle the exception or propagate it further using the throws clause.
+
+finally: The finally block is used to specify a block of code that will be executed regardless of whether an exception occurs or not. It is often used for resource cleanup or releasing.
