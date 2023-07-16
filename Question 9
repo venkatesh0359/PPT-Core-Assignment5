@@ -1,1 +1,8 @@
+What are the two ways of implementing a thread in Java?
 
+
+There are two ways to implement a thread in Java:
+
+Extending Thread: This involves creating a new class that extends the Thread class and overrides the run() method. The run() method contains the code that the thread will execute when started. The thread is started using the start() method.
+
+Implementing Runnable: This approach involves creating a new class that implements the Runnable interface. The Runnable interface has a single abstract method, run(), which contains the thread's code. The thread is created by passing an instance of the Runnable class to a Thread constructor and then calling the start() method.
