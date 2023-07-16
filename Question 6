@@ -1,1 +1,24 @@
+Write a program to create and call a custom exception.
+
+// Custom exception class
+class MyCustomException extends Exception {
+    public MyCustomException(String message) {
+        super(message);
+    }
+}
+
+public class CustomExceptionExample {
+    public static void main(String[] args) {
+        try {
+            // Simulate a condition that raises the custom exception
+            int age = -5;
+            if (age < 0) {
+                throw new MyCustomException("Age cannot be negative.");
+            }
+            System.out.println("Age: " + age);
+        } catch (MyCustomException e) {
+            System.err.println("Error: " + e.getMessage());
+        }
+    }
+}
 
