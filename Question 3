@@ -1,1 +1,7 @@
+What is the difference between Checked and Unchecked Exceptions and Error?
 
+Checked Exceptions: These are exceptions that the Java compiler requires the programmer to handle explicitly. Any method that may throw a checked exception must declare it using the throws keyword, and the calling code must either handle the exception with a try-catch block or propagate it using the throws clause. Examples of checked exceptions include IOException and SQLException.
+
+Unchecked Exceptions: Also known as runtime exceptions, these exceptions do not need to be declared using the throws keyword, and the compiler does not enforce handling them. They usually indicate programming errors or logic issues that developers should fix. Examples of unchecked exceptions include NullPointerException and ArrayIndexOutOfBoundsException.
+
+Errors: Errors, like unchecked exceptions, do not require explicit handling by the programmer. They typically represent critical and unrecoverable problems that can lead to abnormal program termination. Examples of errors include OutOfMemoryError and StackOverflowError.
