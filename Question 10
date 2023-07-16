@@ -1,1 +1,15 @@
+What do you mean by garbage collection?
 
+Garbage collection is an automatic memory management process in Java (and other modern programming languages). It relieves the programmer from manually deallocating memory used by objects that are no longer in use or needed. The garbage collector automatically identifies and reclaims memory occupied by objects that are no longer reachable or referenced by the program.
+
+When an object becomes unreachable (no longer accessible by any reference), it is considered eligible for garbage collection. The garbage collector periodically runs in the background, freeing up memory occupied by these unreachable objects, making it available for new object allocations.
+
+The main advantages of garbage collection include:
+
+Memory Management: Garbage collection automates the process of memory management, preventing memory leaks and reducing the likelihood of crashes due to memory exhaustion.
+
+Simpler Coding: Developers don't need to explicitly deallocate memory, making the code cleaner and less prone to memory-related bugs.
+
+Reduced Development Time: Without the need to manage memory manually, developers can focus on solving higher-level problems and features.
+
+Dynamic Memory Allocation: Garbage collection allows for dynamic allocation and deallocation of memory, making it more flexible and adaptable to varying workloads
