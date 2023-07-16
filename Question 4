@@ -1,1 +1,5 @@
+What are the differences between throw and throws in Java?
 
+throw: It is used to explicitly throw an exception within a method or a block of code. When an exceptional situation occurs, you can create an exception object and throw it using the throw keyword. The syntax is throw <ExceptionObject>;.
+
+throws: It is used in a method declaration to indicate that the method may throw one or more types of exceptions. When a method declares a checked exception using the throws keyword, it signals to the calling code that it must either handle the exception using a try-catch block or propagate the exception to its caller using the throws clause.
